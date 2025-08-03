@@ -103,11 +103,22 @@ function gestionarVista(datosCubiculos, layout) {
     });
 
     // --- LÓGICA DE EVENTOS ---
-    const gestionarBusqueda = () => {
+        const gestionarBusqueda = () => {
         const termino = campoBusqueda.value.toLowerCase().trim();
+        const grid = document.getElementById('bibliotecaGrid');
+
+        // Si hay un término de búsqueda, activamos el "modo búsqueda" en el grid
+        if (termino) {
+            grid.classList.add('busqueda-activa');
+        } else {
+            // Si la búsqueda está vacía, desactivamos el "modo búsqueda"
+            grid.classList.remove('busqueda-activa');
+        }
+
         todosLosLomos.forEach(lomo => {
             const cubiculoPadre = lomo.parentElement;
             let resalta = false;
+            // La condición para resaltar no cambia
             if (!cubiculoPadre.classList.contains('atenuado') && termino) {
                 const titulo = lomo.dataset.titulo.toLowerCase();
                 const autor = lomo.dataset.autor.toLowerCase();
@@ -115,6 +126,7 @@ function gestionarVista(datosCubiculos, layout) {
                     resalta = true;
                 }
             }
+            // Simplemente añadimos o quitamos la clase 'resaltado'
             lomo.classList.toggle('resaltado', resalta);
         });
     };
@@ -224,3 +236,4 @@ function gestionarVista(datosCubiculos, layout) {
         }
     });
 }
+
