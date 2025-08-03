@@ -76,3 +76,53 @@ body{font-family:sans-serif;margin:0;padding:20px;background-color:#f4f4f4}h1{ma
     border-radius: 4px;
     box-sizing: border-box; /* Importante para que el padding no afecte el ancho */
 }
+/* ================== ESTILOS ADICIONALES PARA MODAL DE DETALLES ================== */
+
+.modal-contenido h3 {
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.modal-acciones {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between; /* Espacia los botones */
+    gap: 15px;
+}
+
+.boton-accion-link {
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Azul */
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.boton-accion-link:hover {
+    background-color: #0056b3;
+}
+
+.boton-accion-peligro {
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545; /* Rojo peligro */
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.boton-accion-peligro:hover {
+    background-color: #c82333;
+}
