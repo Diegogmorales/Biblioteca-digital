@@ -16,7 +16,6 @@ def index():
 @app.route('/api/biblioteca', methods=['GET', 'POST'])
 def gestionar_biblioteca():
     if request.method == 'POST':
-        # ... (Lógica POST para añadir, sin cambios)
         datos_libro = request.get_json()
         titulo = datos_libro.get('titulo')
         clave_cubiculo = datos_libro.get('clave_cubiculo')
@@ -43,12 +42,11 @@ def gestionar_biblioteca():
             return jsonify({"mensaje": "Libro añadido con éxito"}), 201
         except Exception as e:
             conn.rollback()
-            return jsonify({"error": "Error interno al guardar"}), 500
+            return jsonify({"error": f"Error interno al guardar: {e}"}), 500
         finally:
             conn.close()
-
+    
     if request.method == 'GET':
-        # ... (Lógica GET para obtener, sin cambios)
         conn = sqlite3.connect(DB_PATH)
         conn.row_factory = sqlite3.Row
         cursor = conn.cursor()
@@ -63,11 +61,9 @@ def gestionar_biblioteca():
                 datos_para_frontend[clave] = {"genero": libro['genero'], "libros": []}
             datos_para_frontend[clave]['libros'].append({"id_libro": libro['id_libro'], "titulo": libro['titulo'], "autor": libro['autor']})
         return jsonify(datos_para_frontend)
-'''
-# --- ENDPOINT PARA BORRAR LIBROS ---
+
 @app.route('/api/libros/<int:id_libro>', methods=['DELETE'])
 def delete_libro(id_libro):
-    print(f"--- Backend: Petición DELETE recibida para borrar el libro ID: {id_libro} ---")
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     try:
@@ -78,9 +74,10 @@ def delete_libro(id_libro):
         return jsonify({"mensaje": "Libro borrado con éxito"}), 200
     except Exception as e:
         conn.rollback()
-        return jsonify({"error": "Error interno al borrar"}), 500
+        return jsonify({"error": f"Error interno al borrar: {e}"}), 500
     finally:
         conn.close()
-'''
-if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+
+# Comentado para Render
+# if __name__ == '__main__':
+#     app.run(debug=True, port=5000)
