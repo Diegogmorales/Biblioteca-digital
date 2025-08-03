@@ -125,4 +125,27 @@ body{font-family:sans-serif;margin:0;padding:20px;background-color:#f4f4f4}h1{ma
 
 .boton-accion-peligro:hover {
     background-color: #c82333;
+
+}
+/* --- ESTILOS MEJORADOS PARA LA BÚSQUEDA --- */
+
+/* Cuando la búsqueda está activa, todo el grid se prepara */
+.biblioteca-grid.busqueda-activa .libro-lomo {
+    /* Por defecto, todos los lomos se atenúan */
+    opacity: 0.2;
+    transform: scale(0.98); /* Opcional: los hace un poco más pequeños */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* El lomo resaltado sobrescribe la atenuación */
+.biblioteca-grid.busqueda-activa .libro-lomo.resaltado {
+    opacity: 1; /* Totalmente opaco */
+    transform: scale(1.05); /* Opcional: lo hace un poco más grande para que "salte" */
+    border: 2px solid #ff4500;
+    box-shadow: 0 0 10px rgba(255, 69, 0, 0.7); /* Sombra brillante */
+}
+
+/* Mantenemos la regla original para el borde, por si acaso */
+.libro-lomo.resaltado {
+    border: 2px solid #ff4500;
 }
