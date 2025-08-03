@@ -1,6 +1,8 @@
 import sqlite3
 import os
-from flask import Flask, jsonify, render_template, request
+import csv
+import io # <-- NUEVO
+from flask import Flask, jsonify, render_template, request, send_file
 from flask_cors import CORS
 
 app = Flask(__name__,
@@ -79,5 +81,65 @@ def delete_libro(id_libro):
         conn.close()
 
 # Comentado para Render
+# --- NUEVO ENDPOINT PARA DESCARGAR LA DB COMO CSV ---
+@app.route('/api/descargar-csv')
+def descargar_csv():
+    print("--- Backend: Petición recibida para descargar CSV ---")
+    conn = None
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
+
+        # Consulta para obtener todos los libros con su información completa
+        query = """
+            SELECT 
+                c.fila + 1 as fila, 
+                c.columna + 1 as columna,
+                g.nombre as genero,
+                l.titulo,
+                l.autor
+            FROM Libros l
+            JOIN Cubiculos c ON l.id_cubiculo_fk = c.id_cubiculo
+            JOIN Generos g ON c.id_genero_fk = g.id_genero
+            ORDER BY c.fila, c.columna, l.posicion;
+        """
+        cursor.execute(query)
+        libros = cursor.fetchall()
+
+        # Usamos 'io.StringIO' para crear un "archivo" CSV en memoria, sin guardarlo en el disco del servidor
+        output = io.StringIO()
+        writer = csv.writer(output)
+
+        # Escribir la cabecera
+        writer.writerow(['fila', 'columna', 'genero', 'titulo', 'autor'])
+
+        # Escribir los datos de cada libro
+        for libro in libros:
+            writer.writerow([
+                libro['fila'],
+                libro['columna'],
+                libro['genero'],
+                libro['titulo'],
+                libro['autor']
+            ])
+        
+        # Preparar la salida para la descarga
+        output.seek(0) # Volver al principio del "archivo" en memoria
+
+        return send_file(
+            io.BytesIO(output.getvalue().encode('utf-8')),
+            mimetype='text/csv',
+            as_attachment=True,
+            download_name='biblioteca_actualizada.csv'
+        )
+
+    except Exception as e:
+        print(f"--- Backend: ERROR al generar el CSV: {e} ---")
+        return jsonify({"error": "No se pudo generar el archivo CSV"}), 500
+    finally:
+        if conn:
+            conn.close()
 # if __name__ == '__main__':
 #     app.run(debug=True, port=5000)
+
