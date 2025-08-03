@@ -1,0 +1,541 @@
+fila,columna,genero,titulo,autor
+1,1,SUPERIOR 1,Science and development of muscle hypertrophy,Schoenfeld
+1,1,SUPERIOR 1,Dos siglos de economía argentina,Ferreres
+1,1,SUPERIOR 1,Biología,Solomon et al
+1,1,SUPERIOR 1,Advanced nutrition and human metabolism,Gropper & Smith
+1,1,SUPERIOR 1,La célula,Alberts et al
+1,1,SUPERIOR 1,Strength training manual,Jovanovic
+1,1,SUPERIOR 1,La célula,Cooper
+1,1,SUPERIOR 1,Motor control,Cook
+1,1,SUPERIOR 1,Medical genetics,Jorde
+1,2,SUPERIOR 1,Biomechanics and motor control,Latash & Zatsiorsky
+1,2,SUPERIOR 1,Strength and power in sport,Komi
+1,2,SUPERIOR 1,Fundamental neuroscience,Hanes
+1,2,SUPERIOR 1,Strength training for sport,Kraemer
+1,2,SUPERIOR 1,Neuromuscular aspects of sports performance,Komi
+1,2,SUPERIOR 1,Fundamental of special strength training in sport,Verkhoshansky
+1,2,SUPERIOR 1,Super entrenamiento,Siff & Verkhoshansky
+1,2,SUPERIOR 1,Cosmos,Sagan
+1,2,SUPERIOR 1,Textbook of interventional cardiology,Topol
+1,9,BIOLOGÍA Y ANTROPOLOGÍA,Colapso,Diamond
+1,9,BIOLOGÍA Y ANTROPOLOGÍA,The equations of life,Cockell
+1,9,BIOLOGÍA Y ANTROPOLOGÍA,Restless creatures,Wilkinson
+1,9,BIOLOGÍA Y ANTROPOLOGÍA,The case against reality,Hoffman
+1,9,BIOLOGÍA Y ANTROPOLOGÍA,What is health?,Sterling
+1,9,BIOLOGÍA Y ANTROPOLOGÍA,Cronobiología,Marques et al
+1,9,BIOLOGÍA Y ANTROPOLOGÍA,Historia de la vida en la tierra,Gee
+1,9,BIOLOGÍA Y ANTROPOLOGÍA,La sociedad de los primates,Fischer
+1,9,BIOLOGÍA Y ANTROPOLOGÍA,Skin deep,Evans
+1,9,BIOLOGÍA Y ANTROPOLOGÍA,Memento mori,Jones
+1,10,BIOLOGÍA Y ANTROPOLOGÍA,Animales prehistóricos de américa del sur,Papolio
+1,10,BIOLOGÍA Y ANTROPOLOGÍA,La ciencia de los dinosaurios,100 preguntas esenciales
+1,10,BIOLOGÍA Y ANTROPOLOGÍA,Crónicas de la extinción,Arita
+1,10,BIOLOGÍA Y ANTROPOLOGÍA,Being Mortal,Gawande
+1,10,BIOLOGÍA Y ANTROPOLOGÍA,The human story,Dunbar
+1,10,BIOLOGÍA Y ANTROPOLOGÍA,El origen de las especies,Darwin
+1,10,BIOLOGÍA Y ANTROPOLOGÍA,Why is sex fun?,Diamond
+1,10,BIOLOGÍA Y ANTROPOLOGÍA,Touch,Linden
+1,10,BIOLOGÍA Y ANTROPOLOGÍA,What if life?,Nurse
+1,10,BIOLOGÍA Y ANTROPOLOGÍA,Unravelling the double helix,Williams
+1,11,FILOSOFÍA CIENTÍFICA,Crisis y reconstrucción de la filosofía,Bunge
+1,11,FILOSOFÍA CIENTÍFICA,Causality and modern science,Bunge
+1,11,FILOSOFÍA CIENTÍFICA,La relación entre la sociología y la filosofía,Bunge
+1,11,FILOSOFÍA CIENTÍFICA,From a scientific point of view,Bunge
+1,11,FILOSOFÍA CIENTÍFICA,The myth of simplicity,Bunge
+1,11,FILOSOFÍA CIENTÍFICA,Metascientific queries,Bunge
+1,11,FILOSOFÍA CIENTÍFICA,La investigación científica,Bunge
+1,11,FILOSOFÍA CIENTÍFICA,Critical approaches to science and philosophy,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Philosophy of physics,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Foundations of physics,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Buscar la filosofía en las ciencias sociales,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Crítica de la nueva sociología de la ciencia,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Treatise on Basic Philosophy I,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Treatise on Basic Philosophy II,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Treatise on Basic Philosophy III,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Treatise on Basic Philosophy IV,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Treatise on Basic Philosophy V,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Treatise on Basic Philosophy VI,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Treatise on Basic Philosophy VII,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Treatise on Basic Philosophy VIIa,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Treatise on Basic Philosophy VIIb,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Treatise on Basic Philosophy VIII,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Evaluando filosofías,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Epistemología,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,El problema mente cerebro,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Diccionario de filosofía,Bunge
+1,12,FILOSOFÍA CIENTÍFICA,Fundamentos de biofilosofía,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Doing science,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Filosofía política,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Emergencia y convergencia,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,A la caza de la realidad,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Entre dos mundos,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Materialismo y ciencia,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Filosofía de la psicología,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Las ciencias sociales en discusión,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Pseudociencia e ideología,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Materia y mente,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Economía y filosofía,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Vistas y entrevistas,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Intuición y razón,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Filosofía para médicos,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Causalidad,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,¿Tiene porvenir el socialismo?,Bunge
+1,13,FILOSOFÍA CIENTÍFICA,Scientific realism,Bunge
+1,14,FILOSOFÍA CIENTÍFICA,Encuentros con Mario Bunge,Serroni-Copello
+1,14,FILOSOFÍA CIENTÍFICA,La naturaleza del tiempo,Romero
+1,14,FILOSOFÍA CIENTÍFICA,Contemporary materialism,Romero et al
+1,14,FILOSOFÍA CIENTÍFICA,Scientific philosophy,Romero
+1,14,FILOSOFÍA CIENTÍFICA,Mario Bunge,Matthews
+2,1,FILOSOFÍA GREDOS,Platón I,GREDOS
+2,1,FILOSOFÍA GREDOS,Platón II,GREDOS
+2,1,FILOSOFÍA GREDOS,Platón III,GREDOS
+2,1,FILOSOFÍA GREDOS,Aristóteles I,GREDOS
+2,1,FILOSOFÍA GREDOS,Aristóteles II,GREDOS
+2,1,FILOSOFÍA GREDOS,Aristóteles III,GREDOS
+2,2,FILOSOFÍA GREDOS,Cicerón,GREDOS
+2,2,FILOSOFÍA GREDOS,Séneca,GREDOS
+2,2,FILOSOFÍA GREDOS,Plotino I,GREDOS
+2,2,FILOSOFÍA GREDOS,Plotino II,GREDOS
+2,2,FILOSOFÍA GREDOS,San Agustín,GREDOS
+2,2,FILOSOFÍA GREDOS,Santo Tomás,GREDOS
+2,2,FILOSOFÍA GREDOS,Erasmo,GREDOS
+2,9,PSICOLOGÍA Y NEUROCIENCIAS,A human history of emotion,Firth-Godbehere
+2,9,PSICOLOGÍA Y NEUROCIENCIAS,Cynical theories,Pluckrose & Lindsay
+2,9,PSICOLOGÍA Y NEUROCIENCIAS,El poder psiquiátrico,Foucault
+2,9,PSICOLOGÍA Y NEUROCIENCIAS,12 rules for life,Peterson
+2,9,PSICOLOGÍA Y NEUROCIENCIAS,Beyond order,Peterson
+2,9,PSICOLOGÍA Y NEUROCIENCIAS,Mapas de sentidos,Peterson
+2,9,PSICOLOGÍA Y NEUROCIENCIAS,Natural born learners,Beard
+2,9,PSICOLOGÍA Y NEUROCIENCIAS,Grasp,Sarma
+2,9,PSICOLOGÍA Y NEUROCIENCIAS,Noise,Kahneman et al
+2,10,PSICOLOGÍA Y NEUROCIENCIAS,Las moradas de la mente,Diaz Gomez
+2,10,PSICOLOGÍA Y NEUROCIENCIAS,La mente de los justos,Haidt
+2,10,PSICOLOGÍA Y NEUROCIENCIAS,Irracionalidad,Smith
+2,10,PSICOLOGÍA Y NEUROCIENCIAS,Think again,Grant
+2,10,PSICOLOGÍA Y NEUROCIENCIAS,Sistemas y teorías psicológicos contemporáneos,Marx & Hillix
+2,10,PSICOLOGÍA Y NEUROCIENCIAS,How much brain do we really need,Willet & Barnett
+2,10,PSICOLOGÍA Y NEUROCIENCIAS,Neurología de la maldad,Tobeña
+2,10,PSICOLOGÍA Y NEUROCIENCIAS,Lessons from the lobster,Nassim
+2,10,PSICOLOGÍA Y NEUROCIENCIAS,El simio cocinero,Stern
+2,10,PSICOLOGÍA Y NEUROCIENCIAS,Grandes contemporáneos,Churchill
+2,11,PSICOLOGÍA Y NEUROCIENCIAS,Cavernas y palacios,Golombek
+2,11,PSICOLOGÍA Y NEUROCIENCIAS,Neuropsicología humana,Kolb & Wilshaw
+2,11,PSICOLOGÍA Y NEUROCIENCIAS,The tell-tale brain,Ramachandran
+2,11,PSICOLOGÍA Y NEUROCIENCIAS,Rethinking conciousness,Graziano
+2,11,PSICOLOGÍA Y NEUROCIENCIAS,Fundamentos de psicología fisiológica,Thompson
+2,11,PSICOLOGÍA Y NEUROCIENCIAS,"Decisiones, incertidumbre y el cerebro",Glimcher
+2,11,PSICOLOGÍA Y NEUROCIENCIAS,La conciencia en el cerebro,Dehaene
+2,11,PSICOLOGÍA Y NEUROCIENCIAS,Psicología experimental,Hoffding
+2,11,PSICOLOGÍA Y NEUROCIENCIAS,Un libro sobre drogas,el gato y la caja
+2,11,PSICOLOGÍA Y NEUROCIENCIAS,Psicodélicos y salud mental,de Caso
+2,12,RULE 30,A new kind of science,Wolfram
+2,12,RULE 30,Fundamental theory of physics,Wolfram
+2,12,RULE 30,Fooled by randomness,Taleb
+2,12,RULE 30,The black swan,Taleb
+2,12,RULE 30,The bed of procrustes,Taleb
+2,12,RULE 30,Antifragile,Taleb
+2,12,RULE 30,Skin in the game,Taleb
+2,13,HISTORIA DE LA FILOSOFÍA Y EPISTEMOLOGÍA,Introducción a la lógica y el método científico,Cohen & Nagel
+2,13,HISTORIA DE LA FILOSOFÍA Y EPISTEMOLOGÍA,La sabiduría de occidente,Russell
+2,13,HISTORIA DE LA FILOSOFÍA Y EPISTEMOLOGÍA,Historia del pensamiento filosófico y científico I,Reale & Antiseri
+2,13,HISTORIA DE LA FILOSOFÍA Y EPISTEMOLOGÍA,Historia del pensamiento filosófico y científico II,Reale & Antiseri
+2,13,HISTORIA DE LA FILOSOFÍA Y EPISTEMOLOGÍA,Historia del pensamiento filosófico y científico III,Reale & Antiseri
+2,13,HISTORIA DE LA FILOSOFÍA Y EPISTEMOLOGÍA,Filosofía natural,Feyerabend
+2,13,HISTORIA DE LA FILOSOFÍA Y EPISTEMOLOGÍA,The structure of scientific philosophy,Kuhn
+2,13,HISTORIA DE LA FILOSOFÍA Y EPISTEMOLOGÍA,Consilience,Wilson
+2,13,HISTORIA DE LA FILOSOFÍA Y EPISTEMOLOGÍA,El conocimiento humana,Russell
+2,14,"FEMINISMO, BIOGRAFÍAS Y OTROS",Regretting motherhood,Donath
+2,14,"FEMINISMO, BIOGRAFÍAS Y OTROS",Who stole feminism?,Sommers
+2,14,"FEMINISMO, BIOGRAFÍAS Y OTROS",Deshacer el género,Butler
+2,14,"FEMINISMO, BIOGRAFÍAS Y OTROS",Steve Jobs,Isaacson
+2,14,"FEMINISMO, BIOGRAFÍAS Y OTROS",El segundo sexo,De Beauvior
+2,14,"FEMINISMO, BIOGRAFÍAS Y OTROS",Ramón y Cajal,Grandes pensadores
+2,14,"FEMINISMO, BIOGRAFÍAS Y OTROS","Sociedad humana, ética y política",Russell
+2,14,"FEMINISMO, BIOGRAFÍAS Y OTROS",La revolución copernicana,Kuhn
+3,1,FILOSOFÍA GREDOS,Maquiavelo,GREDOS
+3,1,FILOSOFÍA GREDOS,Bruno,GREDOS
+3,1,FILOSOFÍA GREDOS,Hobbes,GREDOS
+3,1,FILOSOFÍA GREDOS,Descartes I,GREDOS
+3,1,FILOSOFÍA GREDOS,Descartes II,GREDOS
+3,1,FILOSOFÍA GREDOS,Pascal I,GREDOS
+3,1,FILOSOFÍA GREDOS,Pascal II,GREDOS
+3,2,FILOSOFÍA GREDOS,Locke,GREDOS
+3,2,FILOSOFÍA GREDOS,Spinoza I,GREDOS
+3,2,FILOSOFÍA GREDOS,Spinoza II,GREDOS
+3,2,FILOSOFÍA GREDOS,Leibniz,GREDOS
+3,2,FILOSOFÍA GREDOS,Berkeley,GREDOS
+3,2,FILOSOFÍA GREDOS,Voltaire I,GREDOS
+3,2,FILOSOFÍA GREDOS,Voltaire II,GREDOS
+3,5,CIENCIA CLIMÁTICA,Global warming,Houghton
+3,5,CIENCIA CLIMÁTICA,The skeptical environmentalist,Lomborg
+3,5,CIENCIA CLIMÁTICA,False alarm,Lomborg
+3,5,CIENCIA CLIMÁTICA,This is planet earth,NewScientist
+3,5,CIENCIA CLIMÁTICA,El cambio climático,Molina et al
+3,5,CIENCIA CLIMÁTICA,Cool it,Lomborg
+3,5,CIENCIA CLIMÁTICA,How to spend 50 billion to make the world a better place,Lomborg
+3,9,PSICOLOGÍA Y NEUROCIENCIAS,Inteligencia animal,Pouydebat
+3,9,PSICOLOGÍA Y NEUROCIENCIAS,Los nuevos psi,Meyer
+3,9,PSICOLOGÍA Y NEUROCIENCIAS,Is god the best explanation of things,Rasmussen & Leon
+3,9,PSICOLOGÍA Y NEUROCIENCIAS,The moral landscape,Harris
+3,9,PSICOLOGÍA Y NEUROCIENCIAS,El hombre que confundió a su mujer con un sombrero,Sacks
+3,9,PSICOLOGÍA Y NEUROCIENCIAS,La superstición a lo largo de los tiempos,Ruffat
+3,9,PSICOLOGÍA Y NEUROCIENCIAS,Range,Epstein
+3,9,PSICOLOGÍA Y NEUROCIENCIAS,The science of being human,Jopson
+3,9,PSICOLOGÍA Y NEUROCIENCIAS,Reflejos condicionados e inhibiciones,Pávlov
+3,10,PSICOLOGÍA Y NEUROCIENCIAS,Everybody is wrong abour god,Lindsay
+3,10,PSICOLOGÍA Y NEUROCIENCIAS,El género y nuestros cerebros,Rippon
+3,10,PSICOLOGÍA Y NEUROCIENCIAS,The geography of thought,Nisbett
+3,10,PSICOLOGÍA Y NEUROCIENCIAS,How the brain lost its mind,Ropper & Burrell
+3,10,PSICOLOGÍA Y NEUROCIENCIAS,Infinity plus god equals folly,Lindsay
+3,10,PSICOLOGÍA Y NEUROCIENCIAS,Psicofarmacos que matan,Gotzsche
+3,10,PSICOLOGÍA Y NEUROCIENCIAS,Medicamentos que matan y crimen organizado,Gotzsche
+3,10,PSICOLOGÍA Y NEUROCIENCIAS,Unique,Linden
+3,10,PSICOLOGÍA Y NEUROCIENCIAS,Self delusion,Oliver
+3,10,PSICOLOGÍA Y NEUROCIENCIAS,Elementos de psicofisiología,Roger
+3,10,PSICOLOGÍA Y NEUROCIENCIAS,The true creator of everything,Nicolelis
+3,10,PSICOLOGÍA Y NEUROCIENCIAS,El gorila invisible,Chabris & Simons
+3,10,PSICOLOGÍA Y NEUROCIENCIAS,The origin of virtue,Ridley
+3,10,PSICOLOGÍA Y NEUROCIENCIAS,Las grandes realizaciones de la psicología experimental,Garret
+3,11,ENTRENAMIENTO,Ponte en forma,Marchante
+3,11,ENTRENAMIENTO,The routledge handbook on biochemistry of exercise,Tiidus
+3,11,ENTRENAMIENTO,Química biológica,Blanco & Blanco
+3,11,ENTRENAMIENTO,"La velocidad de ejecución como referencia para la programación, control y evaluación del entrenamiento de fuerza",Badillo
+3,11,ENTRENAMIENTO,Introducción a la estadística en ciencias de la salud,Macchi
+3,11,ENTRENAMIENTO,Biomecánica y bases neuromusculares de la actividad física y el deporte,Izquierdo
+3,11,ENTRENAMIENTO,Fundamentos del entrenamiento de la fuerza,Badillo & Ayesteran
+3,11,ENTRENAMIENTO,Bases de la programación del entrenamiento de fuerza,Badillo & Serna
+3,11,ENTRENAMIENTO,"Fuerza, velocidad y rendimiento físico deportivo",Badillo & Serna
+3,11,ENTRENAMIENTO,Cómo programar el entrenamiento de fuerza,Badillo
+3,11,ENTRENAMIENTO,Advanced personal training,Hough & Schoenfeld
+3,11,ENTRENAMIENTO,Principles of exercise neuroscience,Kidgell & Pearce
+3,12,"CIENCIA, FÍSICA Y EXACTAS",A hombros de gigantes,Hawking
+3,12,"CIENCIA, FÍSICA Y EXACTAS",Los sueños de los que está hecha la materia,Hawking
+3,12,"CIENCIA, FÍSICA Y EXACTAS",El camino a la realidad,Penrose
+3,12,"CIENCIA, FÍSICA Y EXACTAS",Albert Einstein,Sanchez Ron
+3,12,"CIENCIA, FÍSICA Y EXACTAS",La teoría de casi todo,Oerter
+3,12,"CIENCIA, FÍSICA Y EXACTAS",El significado de la relatividad,Einstein
+3,12,"CIENCIA, FÍSICA Y EXACTAS",Sobre la teoría de la relatividad especial y general,Einstein
+3,13,"CIENCIA, FÍSICA Y EXACTAS",El libro de la ciencia,Pickover
+3,13,"CIENCIA, FÍSICA Y EXACTAS",El libro de las matemáticas,Pickover
+3,13,"CIENCIA, FÍSICA Y EXACTAS",El libro de la medicina,Pickover
+3,13,"CIENCIA, FÍSICA Y EXACTAS",La enseñanza de la ciencia,Matthews
+3,13,"CIENCIA, FÍSICA Y EXACTAS",The reality frame,Clegg
+3,13,"CIENCIA, FÍSICA Y EXACTAS",To explain the world,Weinberg
+3,13,"CIENCIA, FÍSICA Y EXACTAS",Bioestadística amigable,Gonzalez
+3,14,"CIENCIA, FÍSICA Y EXACTAS",This explains everything,Brockman
+3,14,"CIENCIA, FÍSICA Y EXACTAS",Schrodinger,RBA
+3,14,"CIENCIA, FÍSICA Y EXACTAS",Heisenberg,RBA
+3,14,"CIENCIA, FÍSICA Y EXACTAS",Feynman,RBA
+3,14,"CIENCIA, FÍSICA Y EXACTAS",Pitágoras,RBA
+3,14,"CIENCIA, FÍSICA Y EXACTAS",Newton,RBA
+3,14,"CIENCIA, FÍSICA Y EXACTAS",Boltzmann,RBA
+3,14,"CIENCIA, FÍSICA Y EXACTAS",Max Planck,RBA
+3,14,"CIENCIA, FÍSICA Y EXACTAS",Bohr,RBA
+3,14,"CIENCIA, FÍSICA Y EXACTAS",Miles de millones,Sagan
+3,14,"CIENCIA, FÍSICA Y EXACTAS",Six easy pieces,Feynman
+3,14,"CIENCIA, FÍSICA Y EXACTAS",The origin of (almost) everything,NewScientist
+3,14,"CIENCIA, FÍSICA Y EXACTAS",Historia del tiempo,Hawking
+3,14,"CIENCIA, FÍSICA Y EXACTAS",Nueva guía de la ciencia. Ciencias físicas,Asimov
+4,1,FILOSOFÍA GREDOS,Hume,GREDOS
+4,1,FILOSOFÍA GREDOS,Rousseau I,GREDOS
+4,1,FILOSOFÍA GREDOS,Rousseau II,GREDOS
+4,1,FILOSOFÍA GREDOS,Kant I,GREDOS
+4,1,FILOSOFÍA GREDOS,Kant II,GREDOS
+4,1,FILOSOFÍA GREDOS,Kant III,GREDOS
+4,2,FILOSOFÍA GREDOS,Herder,GREDOS
+4,2,FILOSOFÍA GREDOS,Hegel I,GREDOS
+4,2,FILOSOFÍA GREDOS,Hegel II,GREDOS
+4,2,FILOSOFÍA GREDOS,Schopenhauer I,GREDOS
+4,2,FILOSOFÍA GREDOS,Schopenhauer II,GREDOS
+4,3,LITERATURA,Crimen y castigo,Dostoievsky
+4,3,LITERATURA,Don Quijote de la mancha,Cervantes
+4,3,LITERATURA,Moby Dick,Melville
+4,3,LITERATURA,El tunél,Sábato
+4,3,LITERATURA,Rebelión en la granja,Orwell
+4,3,LITERATURA,Divina comedia,Alighieri
+4,3,LITERATURA,Eneida,Virgilio
+4,3,LITERATURA,Ilíada,Homero
+4,3,LITERATURA,Odisea,Homero
+4,4,LITERATURA,El libro de Asgalard,Kaiser
+4,4,LITERATURA,Aguafuertes porteñas,Artl
+4,4,LITERATURA,Trilogía de la fundación,Asimov
+4,4,LITERATURA,Obras completas,Shakespeare
+4,4,LITERATURA,Obras completas,Wilde
+4,4,LITERATURA,1984,Orwell
+4,4,LITERATURA,Un mundo feliz,Huxley
+4,4,LITERATURA,Obra poética,Borges
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",La inflación como delito,Rojas
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",La batalla cultural,Laje
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",Historia económica de la argentina,Cavallo
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",La revolución de la libertad,Giacomini
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",Los mitos setentistas,Laje
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",Autopsia del socialismo,Lynch
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",Nada es gratis,Lynch
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",Manual de economía austríaca contemporánea,Boettke
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",Maldita coyuntura,Lynch
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",Juan Bautista Alberdi,La Nación
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",La idolatría del estado,Mira
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",Análisis crítico del manifiesto comunista,Roland
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",Teoría de los sentimientos morales,Smith
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",Sin traición,Spooner
+4,5,"ECONOMÍA, DERECHO Y POLÍTICA",Obras escogidas,Bastiat
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA",La fatal ignorancia,Kaiser
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA",Paraísos fiscales e infiernos tributarios,Litwak
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA","Estudios de filosofia, política y economía",Hayek
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA","Nuevos estudios de filosofía, política, economía e historia de las ideas",Hayek
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA",Las vicisitudes del liberalismo,Hayek
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA",El método de las ciencias sociales,Menger
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA",El socialismo,Mises
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA",Los fundamentos de la libertad,Hayek
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA","Derecho, legislación y libertad",Hayek
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA",La fatal ignorancia,Hayek
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA",Camino de certidumbre,Hayek
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA",Liberalism,Mises
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA",Historia general de las drogas 2,Escohotado
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA",Principios de economía,Mankiw
+4,6,"ECONOMÍA, DERECHO Y POLÍTICA",La contrarrevolución de la ciencia,Hayek
+4,7,"ECONOMÍA, DERECHO Y POLÍTICA",Economía y sociedad,Weber
+4,7,"ECONOMÍA, DERECHO Y POLÍTICA",Caos y orden,Escohotado
+4,7,"ECONOMÍA, DERECHO Y POLÍTICA",Los enemigos del comercio I,Escohotado
+4,7,"ECONOMÍA, DERECHO Y POLÍTICA",Los enemigos del comercio II,Escohotado
+4,7,"ECONOMÍA, DERECHO Y POLÍTICA",Los enemigos del comercio III,Escohotado
+4,7,"ECONOMÍA, DERECHO Y POLÍTICA",La neoinquisición,Kaiser
+4,7,"ECONOMÍA, DERECHO Y POLÍTICA",Las actitudes políticas,Meynoua & Lascolot
+4,7,"ECONOMÍA, DERECHO Y POLÍTICA",La ciencia económica y el método austríaco,Hoppe
+4,7,"ECONOMÍA, DERECHO Y POLÍTICA",Defendiendo lo indefendible II,Block
+4,7,"ECONOMÍA, DERECHO Y POLÍTICA",La riqueza de las naciones,Smith
+4,8,"ECONOMÍA, DERECHO Y POLÍTICA",La conclusión del sistema marxiano,Bohm Bawerk
+4,8,"ECONOMÍA, DERECHO Y POLÍTICA",La miseria del intervencionismo,Kaiser
+4,8,"ECONOMÍA, DERECHO Y POLÍTICA",Los errores de la vieja economía,Rallo
+4,8,"ECONOMÍA, DERECHO Y POLÍTICA",Human Action,Mises
+4,8,"ECONOMÍA, DERECHO Y POLÍTICA",Historia del pensamiento económico I,Rothbard
+4,8,"ECONOMÍA, DERECHO Y POLÍTICA",Historia del pensamiento económico II,Rothbard
+4,8,"ECONOMÍA, DERECHO Y POLÍTICA",Principios de economía política,Menger
+4,9,"ECONOMÍA, DERECHO Y POLÍTICA",Tiempo y dinero,Garrison
+4,9,"ECONOMÍA, DERECHO Y POLÍTICA",Las ideas políticas en la era romántica,Berlin
+4,9,"ECONOMÍA, DERECHO Y POLÍTICA",La argentina devorada,Espert
+4,9,"ECONOMÍA, DERECHO Y POLÍTICA","Socialismo, cálculo económico y función empresarial",Huerta de Soto
+4,9,"ECONOMÍA, DERECHO Y POLÍTICA","Capitalismo, socialismo y la trampa neoclásica",Milei
+4,9,"ECONOMÍA, DERECHO Y POLÍTICA",Dolarización,Ocampo & Cachanosky
+4,9,"ECONOMÍA, DERECHO Y POLÍTICA",El gran escape,Deaton
+4,9,"ECONOMÍA, DERECHO Y POLÍTICA",El método de la economía política,Zanotti
+4,9,"ECONOMÍA, DERECHO Y POLÍTICA",La ética protestante y el espíritu del capitalismo,Weber
+4,9,"ECONOMÍA, DERECHO Y POLÍTICA",La sociedad abierta y sus enemigos,Popper
+4,9,"ECONOMÍA, DERECHO Y POLÍTICA",La división del trabajo social,Durkheim
+4,9,"ECONOMÍA, DERECHO Y POLÍTICA",La llamada de la tribu,Vargas Llosa
+4,9,"ECONOMÍA, DERECHO Y POLÍTICA",El político y el científico,Weber
+4,10,PSICOLOGÍA Y NEUROCIENCIAS,Contribuciones a la psicología médica,Weider
+4,10,PSICOLOGÍA Y NEUROCIENCIAS,Psicología experimental,Kantowitz
+4,10,PSICOLOGÍA Y NEUROCIENCIAS,The deep history of ourselves,LeDoux
+4,10,PSICOLOGÍA Y NEUROCIENCIAS,Psicología evolucionista,Swami
+4,10,PSICOLOGÍA Y NEUROCIENCIAS,Livewired,Eagleman
+4,10,PSICOLOGÍA Y NEUROCIENCIAS,The hungrybrain,Guyenet
+4,10,PSICOLOGÍA Y NEUROCIENCIAS,The art of thinking clearly,Dobelli
+4,10,PSICOLOGÍA Y NEUROCIENCIAS,The irrational ape,Grimes
+4,10,PSICOLOGÍA Y NEUROCIENCIAS,The myth of mental illness,Szasz
+4,10,PSICOLOGÍA Y NEUROCIENCIAS,Saving normal,Frances
+4,10,PSICOLOGÍA Y NEUROCIENCIAS,Psychology,Butler
+4,11,BIOLOGÍA Y ANTROPOLOGÍA,Super cooperadores,Nowak
+4,11,BIOLOGÍA Y ANTROPOLOGÍA,The princeton guide to evolution,Losos
+4,11,BIOLOGÍA Y ANTROPOLOGÍA,Evolución,Parker
+4,11,BIOLOGÍA Y ANTROPOLOGÍA,Food and western disease,Lindeberg
+4,11,BIOLOGÍA Y ANTROPOLOGÍA,Human evolution,Dunbar
+4,11,BIOLOGÍA Y ANTROPOLOGÍA,Cronobiología humana,Golombek
+4,11,BIOLOGÍA Y ANTROPOLOGÍA,Quema,Pontzer
+4,11,BIOLOGÍA Y ANTROPOLOGÍA,Elogio del olvido,Rieff
+4,11,BIOLOGÍA Y ANTROPOLOGÍA,Darwin viene a la ciudad,Schiltuizen
+4,11,BIOLOGÍA Y ANTROPOLOGÍA,S=EX2,Estupnya
+4,12,"CIENCIA, FÍSICA Y EXACTAS",¿Determinismo o indeterminismo?,Vanney & Franck
+4,12,"CIENCIA, FÍSICA Y EXACTAS","Ciencia, libertad y paz",Huxley
+4,12,"CIENCIA, FÍSICA Y EXACTAS",Historia universal de la ciencia,Storig
+4,12,"CIENCIA, FÍSICA Y EXACTAS",La materia oscura,RBA
+4,12,"CIENCIA, FÍSICA Y EXACTAS",El descubrimiento de la sombra,Casati
+4,12,"CIENCIA, FÍSICA Y EXACTAS",El cerebro de Broca,Sagan
+4,12,"CIENCIA, FÍSICA Y EXACTAS",El mundo y sus demonios,Sagan
+4,12,"CIENCIA, FÍSICA Y EXACTAS",The royal society and the invention of modern science,Tinniswood
+4,12,"CIENCIA, FÍSICA Y EXACTAS",Astrophysics for people in a hurry,de Grasse Tyson
+4,13,FILOSOFÍA,Cincuenta años de filosofía en argentina,Lopez
+4,13,FILOSOFÍA,"Vidas, opiniones y sentencias de los filósofos más ilustres",Diógenes Laercio
+4,13,FILOSOFÍA,El círculo de viena,Stadler
+4,13,FILOSOFÍA,La estupidez: ideologías del postmodernismo,Glucksmann
+4,13,FILOSOFÍA,El olvido de la razón,Sebreli
+4,13,FILOSOFÍA,Dios en el laberinto,Sebreli
+4,13,FILOSOFÍA,La metodología de los programas de investigación científica,Lakatos
+4,13,FILOSOFÍA,Introducción a la lógica,Copi
+4,13,FILOSOFÍA,Las desventuras del conocimiento matemático,Klimovsky& Boido
+4,13,FILOSOFÍA,La inexplicable sociedad,Klimovsky & Hidalgo
+4,13,FILOSOFÍA,Las desventuras del conocimiento científico,Klimovsky
+4,14,FILOSOFÍA,Estudios galileanos,Koyre
+4,14,FILOSOFÍA,On human nature,Scruton
+4,14,FILOSOFÍA,Misticismo y lógica,Russell
+4,14,FILOSOFÍA,Historia de la filosofía occidental,Kenny
+4,14,FILOSOFÍA,Obras filosóficas,Spencer
+4,14,FILOSOFÍA,Ensayos científicos,Spencer
+4,14,FILOSOFÍA,Essais de morale,Spencer
+4,14,FILOSOFÍA,The open society and its animal,Vink
+4,14,FILOSOFÍA,Science in a free society,Feyerabend
+4,14,FILOSOFÍA,Ecce homo,Nietzsche
+4,14,FILOSOFÍA,Think,Blackburn
+4,14,FILOSOFÍA,Oratoria y cultura,Salas
+4,14,FILOSOFÍA,Los problemas de la filosofía,Russell
+4,14,FILOSOFÍA,Conocimiento del mundo exterior,Russell
+4,14,FILOSOFÍA,La filosofía científica,Reichenbach
+4,14,FILOSOFÍA,Contra mitos y leyendas,Sebreli
+4,14,FILOSOFÍA,Matrimonio y moral,Russell
+4,14,FILOSOFÍA,Los caminos de la libertad,Russell
+4,14,FILOSOFÍA,La deconstrucción en una carazca de nuez,Derrida
+5,1,FILOSOFÍA GREDOS,Schelling,GREDOS
+5,1,FILOSOFÍA GREDOS,Fitche,GREDOS
+5,1,FILOSOFÍA GREDOS,Marx,GREDOS
+5,1,FILOSOFÍA GREDOS,Nietzsche I,GREDOS
+5,1,FILOSOFÍA GREDOS,Nietzsche II,GREDOS
+5,1,FILOSOFÍA GREDOS,Nietzsche III,GREDOS
+5,1,FILOSOFÍA GREDOS,Kierkegard,GREDOS
+5,2,FILOSOFÍA GREDOS,Ortega y Gasset I,GREDOS
+5,2,FILOSOFÍA GREDOS,Ortega y Gasset II,GREDOS
+5,2,FILOSOFÍA GREDOS,Wittgestein I,GREDOS
+5,2,FILOSOFÍA GREDOS,Wittgestein II,GREDOS
+5,2,FILOSOFÍA GREDOS,Wittgestein III,GREDOS
+5,3,LITERATURA,Historia universal de la infamia,Borges
+5,3,LITERATURA,Ficciones,Borges
+5,3,LITERATURA,El libro de arena,Borges
+5,3,LITERATURA,Historia de la eternidad,Borges
+5,3,LITERATURA,El informe de Brodie,Borges
+5,3,LITERATURA,El oro de los tigres,Borges
+5,3,LITERATURA,Los conjurados,Borges
+5,3,LITERATURA,Otras inquisiciones,Borges
+5,3,LITERATURA,El hacedor,Borges
+5,4,LITERATURA,El sueño de los héroes,Bioy Casares
+5,4,LITERATURA,La aventura de un fotógrafo en la plata,Bioy Casares
+5,4,LITERATURA,Dormir al sol,Bioy Casares
+5,4,LITERATURA,La invención de Morel,Bioy Casares
+5,4,LITERATURA,Historias de amor,Bioy Casares
+5,4,LITERATURA,Diario de la guerra del cerdo,Bioy Casares
+5,4,LITERATURA,Historias fantásicas,Bioy Casares
+5,4,LITERATURA,El héroe de las mujeres,Bioy Casares
+5,4,LITERATURA,Diccionario del argentino exquisito,Bioy Casares
+5,4,LITERATURA,Historias desaforadas,Bioy Casares
+5,5,"ECONOMÍA, DERECHO Y POLÍTICA",El orden del derecho,Friedman
+5,5,"ECONOMÍA, DERECHO Y POLÍTICA",The philosophy of economics,Hausman
+5,5,"ECONOMÍA, DERECHO Y POLÍTICA",Competencia y empresarialidad,Kirzner
+5,5,"ECONOMÍA, DERECHO Y POLÍTICA",Ensayo sobre la naturaleza del comercio en general,Cantillon
+5,5,"ECONOMÍA, DERECHO Y POLÍTICA",Juan Bautista Alberdi,Gómez
+5,5,"ECONOMÍA, DERECHO Y POLÍTICA",Defendiendo el chantaje,Block
+5,5,"ECONOMÍA, DERECHO Y POLÍTICA",Papel pintado,Giacomini
+5,5,"ECONOMÍA, DERECHO Y POLÍTICA",Pandenomics,Milei
+5,5,"ECONOMÍA, DERECHO Y POLÍTICA","Libertad, libertad, libertad",Milei & Giacomini
+5,5,"ECONOMÍA, DERECHO Y POLÍTICA","DInero, crédito bancario y ciclos económicos",Huerta de Soto
+5,5,"ECONOMÍA, DERECHO Y POLÍTICA",La libertad de emisión del dinero bancario,Selgin
+5,6,"ECONOMÍA, DERECHO Y POLÍTICA",El orden sensorial,Hayek
+5,6,"ECONOMÍA, DERECHO Y POLÍTICA",Problemas epistemológicos de la economía,Mises
+5,6,"ECONOMÍA, DERECHO Y POLÍTICA",Los fundamentos últimos de la ciencia económica,Mises
+5,6,"ECONOMÍA, DERECHO Y POLÍTICA",1492,Iturralde
+5,6,"ECONOMÍA, DERECHO Y POLÍTICA",El estado,Oppenheimer
+5,6,"ECONOMÍA, DERECHO Y POLÍTICA",Explicando el posmodernismo,Hicks
+5,6,"ECONOMÍA, DERECHO Y POLÍTICA",Sobre la libertad/El utilitarismo,Mill
+5,6,"ECONOMÍA, DERECHO Y POLÍTICA","Monarquía, democracia y orden natural",Hoppe
+5,6,"ECONOMÍA, DERECHO Y POLÍTICA",Contra la propiedad intelectual,Kinsella
+5,6,"ECONOMÍA, DERECHO Y POLÍTICA",Educación: libre y obligatoria,Rothbard
+5,6,"ECONOMÍA, DERECHO Y POLÍTICA",Hacia una nueva libertad,Rothbard
+5,6,"ECONOMÍA, DERECHO Y POLÍTICA",El liberalismo económico en 10 principios,Carrino
+5,6,"ECONOMÍA, DERECHO Y POLÍTICA",4000 años de controles de precios y salarios,Schuettinger
+5,7,"ECONOMÍA, DERECHO Y POLÍTICA",Basic Economics,Sowell
+5,7,"ECONOMÍA, DERECHO Y POLÍTICA",Applied economics,Sowell
+5,7,"ECONOMÍA, DERECHO Y POLÍTICA",Discrimination and disparities,Sowell
+5,7,"ECONOMÍA, DERECHO Y POLÍTICA",Knowledge and decision,Sowell
+5,7,"ECONOMÍA, DERECHO Y POLÍTICA",El engaño populista,Kaiser & Alvarez
+5,7,"ECONOMÍA, DERECHO Y POLÍTICA",La tiranía de la igualdad,Kaiser
+5,7,"ECONOMÍA, DERECHO Y POLÍTICA",Raíces del pensamiento económico argentino,Ravier
+5,8,"ECONOMÍA, DERECHO Y POLÍTICA",Poder y mercado,Rothbard
+5,8,"ECONOMÍA, DERECHO Y POLÍTICA",Fundamentos de análisis económico,Lynch
+5,8,"ECONOMÍA, DERECHO Y POLÍTICA",El manifiesto comunista,Marx & Engels
+5,8,"ECONOMÍA, DERECHO Y POLÍTICA",El hombre contra el estado,Spencer
+5,8,"ECONOMÍA, DERECHO Y POLÍTICA",La democracia en américa,Tocqueville
+5,8,"ECONOMÍA, DERECHO Y POLÍTICA",Defendiendo lo indefendible I,Block
+5,8,"ECONOMÍA, DERECHO Y POLÍTICA",Anti-Marx,Rallo
+5,8,"ECONOMÍA, DERECHO Y POLÍTICA",El capital I,Marx
+5,8,"ECONOMÍA, DERECHO Y POLÍTICA",El capital II,Marx
+5,8,"ECONOMÍA, DERECHO Y POLÍTICA",El capital III,Marx
+5,8,"ECONOMÍA, DERECHO Y POLÍTICA",Los errores de la nueva ciencia económica,Hazlitt
+5,8,"ECONOMÍA, DERECHO Y POLÍTICA",La gran desproporción,Carrino
+5,8,"ECONOMÍA, DERECHO Y POLÍTICA",Weapons of math destruction,O'Neil
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA",El economista callejer,Kaiser
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA",Factfulness,Rosling
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA",Liberalismo,Rallo
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA",Justicia sin estado,Benson
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA",La libertad y la ley,Leon
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA",Lecciones de la filosofía del derecho,Leon
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA",Sobre el anarcocapitalismo,Anxo Bastos
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA",La economía en una lección,Hazlitt
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA","Capitalismo, socialismo y democracia",Schumpeter
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA",Desenmascarando la mentira keynesiana,Milei
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA",Economic facts and fallacies,Sowell
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA","Creatividad, capitalismo y justicia distributiva",Kirzner
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA",Free to choose,Friedman
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA",Fundamentos praxiológicos del derecho,Rojas
+5,9,"ECONOMÍA, DERECHO Y POLÍTICA",Against democracy,Brennan
+5,10,"ECONOMÍA, DERECHO Y POLÍTICA",Introducción histórica a la escua austríaca de economía,Zanotti
+5,10,"ECONOMÍA, DERECHO Y POLÍTICA",Epistemología objetivista,Rand
+5,10,"ECONOMÍA, DERECHO Y POLÍTICA",La rebelión de atlas,Rand
+5,10,"ECONOMÍA, DERECHO Y POLÍTICA",Walden,Thoreau
+5,10,"ECONOMÍA, DERECHO Y POLÍTICA",Desobediencia civil,Thoreau
+5,10,"ECONOMÍA, DERECHO Y POLÍTICA",¿Qué es y para que sirve la filosofía política?,Swift
+5,10,"ECONOMÍA, DERECHO Y POLÍTICA",La política,Sartori
+5,10,"ECONOMÍA, DERECHO Y POLÍTICA",Elemento de teoría política,Sartori
+5,10,"ECONOMÍA, DERECHO Y POLÍTICA",Homo videns,Sartori
+5,10,"ECONOMÍA, DERECHO Y POLÍTICA",¿Qué es la democracia?,Sartori
+5,10,"ECONOMÍA, DERECHO Y POLÍTICA",La democracia en 30 lecciones,Sartori
+5,10,"ECONOMÍA, DERECHO Y POLÍTICA",Salvese quien pueda,Oppenheimer
+5,10,"ECONOMÍA, DERECHO Y POLÍTICA",Crear o morir,Oppenheimer
+5,11,BIOLOGÍA Y ANTROPOLOGÍA,"Guns, germs and steel",Diamond
+5,11,BIOLOGÍA Y ANTROPOLOGÍA,Biological exuberance,Bagemihl
+5,11,BIOLOGÍA Y ANTROPOLOGÍA,Evolución histórica de las ciencias biológicas,Nordenskiold
+5,11,BIOLOGÍA Y ANTROPOLOGÍA,Sexo animal,Olszevicki & Pandolfi
+5,11,BIOLOGÍA Y ANTROPOLOGÍA,De animales a dioses,Harari
+5,11,BIOLOGÍA Y ANTROPOLOGÍA,Homo deus,Harari
+5,11,BIOLOGÍA Y ANTROPOLOGÍA,21 lecciones para el siglo XXI,Harari
+5,11,BIOLOGÍA Y ANTROPOLOGÍA,Las bases biológicas de la libertad humana,Dobzhansky
+5,11,BIOLOGÍA Y ANTROPOLOGÍA,El gen egoista extendido,Dawkins
+5,11,BIOLOGÍA Y ANTROPOLOGÍA,Mutants,Leroi
+5,12,"CIENCIA, FÍSICA Y EXACTAS",Cómo leer un artículo científico,Greenhalgh
+5,12,"CIENCIA, FÍSICA Y EXACTAS",Dreams of a final theory,Weinberg
+5,12,"CIENCIA, FÍSICA Y EXACTAS",El analista,Stacco
+5,12,"CIENCIA, FÍSICA Y EXACTAS",The art of statistics,Spiegelhalter
+5,12,"CIENCIA, FÍSICA Y EXACTAS",Statistical,Reuben
+5,12,"CIENCIA, FÍSICA Y EXACTAS",QED,Feynman
+5,12,"CIENCIA, FÍSICA Y EXACTAS",Hallazgos científicos,Ameghino
+5,12,"CIENCIA, FÍSICA Y EXACTAS",What is life?,Schroedinger
+5,12,"CIENCIA, FÍSICA Y EXACTAS",La diversidad de la ciencia,Sagan
+5,12,"CIENCIA, FÍSICA Y EXACTAS",Fashionable nonsense,Sokal & Bricmont
+5,12,"CIENCIA, FÍSICA Y EXACTAS",Historia de la ciencia I,Sarton
+5,12,"CIENCIA, FÍSICA Y EXACTAS",Historia de la ciencia II,Sarton
+5,12,"CIENCIA, FÍSICA Y EXACTAS",Historia de la ciencia III,Sarton
+5,12,"CIENCIA, FÍSICA Y EXACTAS",Historia de la ciencia IV,Sarton
+5,12,"CIENCIA, FÍSICA Y EXACTAS",Seis alas,Sarton
+5,12,"CIENCIA, FÍSICA Y EXACTAS",Asimov on astronomy,Asimov
+5,13,FILOSOFÍA,Contra el método,Feyerabend
+5,13,FILOSOFÍA,Novum Organum,Francis Bacon
+5,13,FILOSOFÍA,Obras escogidas,Russell
+5,13,FILOSOFÍA,Fundamentación lógica de la física,Carnap
+5,13,FILOSOFÍA,The story of philosophy,Durant
+5,13,FILOSOFÍA,La perspectiva científica,Russell
+5,13,FILOSOFÍA,Epistemología,Ceva
+5,13,FILOSOFÍA,Diccionario del hombre contemporaneo,Russell
+5,13,FILOSOFÍA,Principios de filosofía,Carpio
+5,13,FILOSOFÍA,The logic of scientific discovery,Popper
+5,13,FILOSOFÍA,Explaining the cosmos,Graham
+5,13,FILOSOFÍA,Como hacer investigación cualitativa,Jurgenson
+5,14,FILOSOFÍA,Ética a nicómaco,Aristóteles
+5,14,FILOSOFÍA,Mas allá del bien y del mal,Nietzsche
+5,14,FILOSOFÍA,El príncipe,Maquiavelo
+5,14,FILOSOFÍA,Meditaciones,Marco Aurelio
+5,14,FILOSOFÍA,Historia de la sexualidad I,Foucault
+5,14,FILOSOFÍA,Historia de la sexualidad II,Foucault
+5,14,FILOSOFÍA,Historia de la sexualidad III,Foucault
+5,14,FILOSOFÍA,Historia de la sexualidad IV,Foucault
+5,14,FILOSOFÍA,Arquelogía del saber,Foucault
+5,14,FILOSOFÍA,Vigilar y castigar,Foucault
+5,14,FILOSOFÍA,Filosofía en 11 frases,Sztajnszrajber
+5,14,FILOSOFÍA,Filosofía a martillazos I,Sztajnszrajber
+5,14,FILOSOFÍA,Filosofía a martillazos II,Sztajnszrajber
+5,14,FILOSOFÍA,Modernindad líquida,Bauman
