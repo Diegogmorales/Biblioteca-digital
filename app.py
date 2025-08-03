@@ -63,7 +63,7 @@ def gestionar_biblioteca():
                 datos_para_frontend[clave] = {"genero": libro['genero'], "libros": []}
             datos_para_frontend[clave]['libros'].append({"id_libro": libro['id_libro'], "titulo": libro['titulo'], "autor": libro['autor']})
         return jsonify(datos_para_frontend)
-
+'''
 # --- ENDPOINT PARA BORRAR LIBROS ---
 @app.route('/api/libros/<int:id_libro>', methods=['DELETE'])
 def delete_libro(id_libro):
@@ -81,6 +81,6 @@ def delete_libro(id_libro):
         return jsonify({"error": "Error interno al borrar"}), 500
     finally:
         conn.close()
-
+'''
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
