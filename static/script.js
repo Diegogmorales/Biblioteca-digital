@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', iniciarApp);
 
-// --- VARIABLES GLOBALES ---
+// --- VARIABLES GLOBALES PARA ESTADO DE ADMINISTRADOR ---
 let esAdmin = false;
 let claveSecreta = null;
 
@@ -13,19 +13,19 @@ async function iniciarApp() {
         if (!response.ok) throw new Error(`Error de red: ${response.status}`);
         
         const datosCubiculos = await response.json();
-        console.log("Datos recibidos.");
+        console.log("Datos recibidos del backend.");
         
         construirVista(datosCubiculos);
 
     } catch (error) {
-        console.error("Fallo al obtener datos:", error);
+        console.error("Fallo al obtener datos de la biblioteca:", error);
         document.getElementById('bibliotecaGrid').innerHTML = '<p style="color: red;">Error al cargar la biblioteca.</p>';
     }
 }
 
 // --- CONSTRUCCIÓN DE LA VISTA Y LÓGICA DE EVENTOS ---
 function construirVista(datosCubiculos) {
-    // --- REFERENCIAS A ELEMENTOS DEL DOM ---
+    // Referencias a elementos del DOM
     const grid = document.getElementById('bibliotecaGrid');
     const tooltip = document.getElementById('globalTooltip');
     const tooltipTitulo = tooltip.querySelector('.tooltip-titulo');
@@ -54,14 +54,12 @@ function construirVista(datosCubiculos) {
         [1,1,0,0,1,0,0,0,1,1,1,1,1,1],[1,1,1,1,1,1,1,1,1,1,1,1,1,1],
         [1,1,1,1,1,1,1,1,1,1,1,1,1,1]
     ];
-
-    // --- FUNCIONES AUXILIARES ---
     const colores = ['#FFADAD', '#FFD6A5', '#FDFFB6', '#CAFFBF', '#9BF6FF', '#A0C4FF', '#BDB2FF', '#FFC6FF'];
     const getRandomColor = () => colores[Math.floor(Math.random() * colores.length)];
     const truncarTitulo = (titulo, max = 22) => titulo.length > max ? titulo.substring(0, max - 3) + "..." : titulo;
 
-    // --- INICIALIZACIÓN DE LA VISTA ---
-    btnOpenAdd.style.display = 'none'; // Ocultar botón Admin por defecto
+    // INICIALIZACIÓN DE LA VISTA
+    btnOpenAdd.style.display = 'none'; // Ocultar botón por defecto
 
     const generos = new Set(Object.values(datosCubiculos).map(data => data.genero));
     filtroGenero.innerHTML = '<option value="todos">Todos los Géneros</option>';
@@ -104,7 +102,18 @@ function construirVista(datosCubiculos) {
         });
     });
 
-    // --- LÓGICA DE EVENTOS ---
+    // LÓGICA DE LOGIN ADMIN
+    adminLoginBtn.addEventListener('click', () => {
+        const pass = prompt("Introduce la contraseña de administrador:");
+        if (pass) {
+            claveSecreta = pass;
+            esAdmin = true;
+            btnOpenAdd.style.display = 'inline-block';
+            alert("Modo administrador activado.");
+        }
+    });
+
+    // LÓGICA DE BÚSQUEDA Y FILTRO
     const gestionarBusqueda = () => {
         const termino = campoBusqueda.value.toLowerCase().trim();
         grid.classList.toggle('busqueda-activa', !!termino);
@@ -119,7 +128,6 @@ function construirVista(datosCubiculos) {
             lomo.classList.toggle('resaltado', resalta);
         });
     };
-    
     const gestionarFiltro = () => {
         const generoSel = filtroGenero.value;
         Object.values(todosLosCubiculosDivs).forEach(div => {
@@ -127,13 +135,12 @@ function construirVista(datosCubiculos) {
         });
         gestionarBusqueda();
     };
-    
     btnBuscar.addEventListener('click', gestionarBusqueda);
     campoBusqueda.addEventListener('keypress', e => { if (e.key === 'Enter') gestionarBusqueda(); });
     btnLimpiar.addEventListener('click', () => { campoBusqueda.value = ''; gestionarBusqueda(); });
     filtroGenero.addEventListener('change', gestionarFiltro);
     
-    // Tooltip (solo para no-táctiles)
+    // LÓGICA DE TOOLTIP (SOLO PARA NO-TÁCTILES)
     const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
     if (!isTouchDevice) {
         let currentLomoHover = null;
@@ -162,7 +169,7 @@ function construirVista(datosCubiculos) {
         });
     }
 
-    // Modal Añadir Libro
+    // LÓGICA MODAL AÑADIR LIBRO
     btnOpenAdd.onclick = () => {
         selectCubiculo.innerHTML = '<option value="">-- Selecciona un cubículo --</option>'; 
         layout.forEach((fila, r) => { fila.forEach((celda, c) => { if (celda === 1) {
@@ -201,7 +208,7 @@ function construirVista(datosCubiculos) {
         }
     });
 
-    // Modal Detalles y Borrar Libro
+    // LÓGICA MODAL DETALLES Y BORRAR LIBRO
     btnCloseDetails.onclick = () => { modalDetails.style.display = "none"; };
     modalDetails.onclick = (e) => { if (e.target == modalDetails) modalDetails.style.display = "none"; };
     grid.addEventListener('click', e => {
