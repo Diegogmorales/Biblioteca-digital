@@ -149,4 +149,21 @@ body{font-family:sans-serif;margin:0;padding:20px;background-color:#f4f4f4}h1{ma
 .libro-lomo.resaltado {
     border: 2px solid #ff4500;
 }
+.admin-login-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#adminLoginBtn {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+#adminLoginBtn:hover {
+    background-color: #5a6268;
+}
 
