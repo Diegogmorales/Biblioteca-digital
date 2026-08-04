@@ -104,6 +104,10 @@ def delete_libro(id_libro):
     finally:
         conn.close()
 
+@app.route('/3d')
+def biblioteca_3d():
+    return render_template('biblioteca_3d.html')
+
 # (Comentado para Render)
 # if __name__ == '__main__':
 #     app.run(debug=True, port=5000)
