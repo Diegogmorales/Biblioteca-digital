@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biblioteca 3D — Prototipo</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='biblioteca_3d.css') }}" />
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <strong>Mi Biblioteca</strong>
+      <span id="cubiculo-label">Cargando…</span>
+    </div>
+    <a href="/">Volver a la versión actual</a>
+  </header>
+
+  <main id="scene-container" aria-label="Biblioteca 3D"></main>
+
+  <aside id="book-card" class="book-card" hidden>
+    <div class="eyebrow">LIBRO SELECCIONADO</div>
+    <h1 id="book-title"></h1>
+    <p id="book-author"></p>
+    <button id="close-book" type="button">Devolver al estante</button>
+  </aside>
+
+  <div class="hint">Arrastrá para mover la cámara · rueda para zoom · hacé clic en un lomo</div>
+
+  <script type="module" src="{{ url_for('static', filename='biblioteca_3d.js') }}"></script>
+</body>
+</html>
