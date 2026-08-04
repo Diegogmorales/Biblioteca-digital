@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biblioteca 3D</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='biblioteca_3d.css') }}">
+</head>
+<body>
+  <main id="app">
+    <div id="scene-container"></div>
+
+    <div class="hint">
+      Tocá un lomo para sacar el libro · Tocá afuera para devolverlo
+    </div>
+
+    <div id="book-card" class="book-card" aria-live="polite">
+      <div class="book-card__title" id="card-title"></div>
+      <div class="book-card__author" id="card-author"></div>
+    </div>
+
+    <div id="loading" class="loading">Cargando biblioteca…</div>
+  </main>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="{{ url_for('static', filename='biblioteca_3d.js') }}"></script>
+</body>
+</html>
